@@ -1,0 +1,22 @@
+.checkout-content{
+	margin: 20px
+}
+.position-text{
+	text-align: right;
+}
+.align-billing-form{
+	margin-right: 100px
+}
+.table-your-order{
+	width: 100%
+}
+.dashed-line{
+	border-top: 2px dashed black;
+}
+.position-text{
+	text-align: right
+}
+.border-box{
+	border: 1px solid brown;
+	padding: 10px
+}

@@ -1,0 +1,34 @@
+.menu {
+	text-align: right
+}
+
+.position-text {
+	text-align: right
+}
+
+.position-text-option {
+	text-align: center;
+}
+
+.position-text-radio {
+	padding-top: 10px
+}
+#customFile .custom-file-control:lang(en)::after {
+  content: "Select file...";
+}
+
+#customFile .custom-file-control:lang(en)::before {
+  content: "Click me";
+}
+
+/*when a value is selected, this class removes the content */
+.custom-file-control.selected:lang(en)::after {
+  content: "" !important;
+}
+
+.custom-file {
+  overflow: hidden;
+}
+.custom-file-control {
+  white-space: nowrap;
+}

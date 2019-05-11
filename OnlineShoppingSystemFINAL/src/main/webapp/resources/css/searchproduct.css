@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#resultSearch {
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+#resultSearch li a {
+	display: block;
+	padding: 10px 0 10px 20px;
+	
+}
+
+#resultSearch li:hover {
+	background-color: #5a88ca;
+	
+}
+
+.dropdownSearch {
+	padding: 0;
+}
